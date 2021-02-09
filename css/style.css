@@ -1,0 +1,355 @@
+body {
+  background: #fff;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #6c757d;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+}
+
+fieldset{
+          background-color: solid white;
+}
+
+ h3 {
+    color: white;
+	font-family: Segoe Print;
+}
+.portfolioSection{
+	color:white;
+}
+.portfolioSection h2{
+	color: white;
+}
+.websiteCaption{
+	color: black;
+}
+.project2{
+	color: black;
+}
+.project3{
+	color: black;
+}
+	
+.websiteCaption h3{
+	color: black;
+}
+
+.project2  h3{
+	color: black;
+}
+.project3 h3{
+	color: black;
+}
+
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #BC8F8F 50%);
+}
+h4{
+    margin:0;
+    padding:0;
+    vertical-align:middle; /*middle centred*/
+    display:table-cell; /*acts like a table cell*/
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.profile-image {
+  display: grid;
+  justify-items: center;
+}
+.signature  {
+  display: grid;
+  justify-items: center;
+}
+.signOff  {
+  display: grid;
+  justify-items: center;
+}
+
+.nav-toggler-icon button {
+	color: #FFFFFF;
+}
+.nav-item{
+	color: #FFFFFF; 
+}
+
+
+.site-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 60px 0;
+  z-index: 2;
+}
+
+ .site-header {
+  position: fixed;
+}
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2, h4, h5 {
+  color: #000;
+  font-family: Segoe Print;
+}
+
+.container-fluid {
+  max-width: 1600px;
+}
+
+.btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  color: white;
+}
+
+.btn.btn-outline-light {
+  border-width: 2px;
+  color: solid white;
+}
+
+.btn.uppercase {
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: .2em;
+  color: solid white;
+  border: 2px solid white;
+}
+
+.btn {
+  outline: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.btn:focus, .btn:active {
+  outline: none;
+}
+
+.site-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 60px 0;
+  z-index: 2;
+}
+
+.site-header {
+  position: fixed;
+}
+
+.site-logo a {
+  font-size: 20px;
+  color: #fff;
+  line-height: 1;
+  font-family: Segoe Print;
+}
+
+
+
+.full-height {
+  height: 100vh;
+  min-height: 700px;
+}
+
+.site-hero {
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  min-height: 700px;
+  width: 100%;
+}
+
+.site-hero.overlay:before {
+  background: rgba(0, 0, 0, 0.2);
+  content: "";
+  position: absolute;
+  height: 100vh;
+  min-height: 700px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.site-hero .btn-primary {
+  color: #fff;
+}
+
+.site-hero-inner {
+  height: 100vh;
+  min-height: 700px;
+}
+
+.site-hero-inner .heading {
+  font-size: 120px;
+  font-family: Segoe Print;
+  color: #fff;
+  line-height: 1;
+  font-weight: bold;
+}
+
+@media (max-width: 991.98px) {
+  .site-hero-inner .heading {
+    font-size: 60px;
+  }
+}
+
+.site-hero-inner .sub-heading {
+  font-size: 30px;
+  font-weight: 200;
+  color: #fff;
+  line-height: 1.5;
+}
+
+@media (max-width: 991.98px) {
+  .site-hero-inner .sub-heading {
+    font-size: 16px;
+  }
+}
+
+.site-hero-inner .sub-heading a {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.site-hero-inner .sub-heading a:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.page-inside .site-hero-inner, .page-inside {
+  height: 70vh;
+  min-height: 500px;
+}
+
+.page-inside.overlay:before {
+  height: 70vh;
+  min-height: 500px;
+}
+
+
+
+.section {
+  padding: 7em 0;
+}
+
+@media (max-width: 991.98px) {
+  .section {
+    padding: 3em 0;
+  }
+}
+
+.portfolioSection {
+  padding: 7em 0;
+}
+
+@media (max-width: 991.98px) {
+  .portfolioSection {
+    padding: 3em 0;
+  }
+}
+
+.border {
+  padding: 7em 0;
+}
+
+@media (max-width: 991.98px) {
+  .border {
+    padding: 3em 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .lead {
+    font-size: 16px;
+  }
+}
+
+.footer-section {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.footer-section h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-section a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-section p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-section .bordertop {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+}
+
+.footer-section .contact-info span.d-block {
+  font-style: italic;
+  color: #fff;
+}
+
+.footer-section .social a {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.footer-section .link li {
+  margin-bottom: 10px;
+}
+
+.footer-newsletter .form-group {
+  position: relative;
+}
+
+.footer-newsletter .form-control:active, .footer-newsletter .form-control:focus {
+  border-bottom: 1px solid white;
+}
+
+.footer-newsletter button[type="submit"] {
+  background: none;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ftco-img-flaticon {
+  text-align: center;
+}
+
+.ftco-img-flaticon img {
+  width: 70px;
+}
+
